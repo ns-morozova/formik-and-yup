@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 300px; */
+}
+
+.fildCont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fieldErr {
+    position: relative;
+    display: flex;
+}
+
+.error {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 0.8em;
+    color: red;
+}
+
+.field {
+    border: 1px gray solid;
+    border-radius: 3px;
+}
+
+.field:focus {
+    border: 1px black solid;
+    outline: none;
+}
+
+.errorInput {
+    border: 1px red solid;
+}
+
+.button {
+    margin-top: 5px;
+    background: rgb(226, 226, 226);
+    border: none;
+    transition: background 0.5s ease;
+}
+
+.button:hover {
+    background: rgb(180, 180, 180);
+}
+
+.button:focus {
+    outline: none;
+    background: rgb(145, 145, 145);
+}
