@@ -1,5 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/3wtwyhvw21fl4o12?svg=true)](https://ci.appveyor.com/project/ns-morozova/formik-and-yup)
 
+https://ns-morozova.github.io/formik-and-yup/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
